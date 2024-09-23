@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>KYC Profile Form</title>
+  </head>
+  <body>
+    <h3>KYC profile form</h3>
+    <form>
+        <div>
+            <label for="BOid">BO ID:</label>
+            <input type="text" name="BOid" id="BOid">
+            <label for="internalRefNumber">Internal Reference Number:</label>
+            <input type="text" name="internalRefNumber" id="internalRefNumber">
+        </div>
+        <ol>
+            <div>    
+                <li>
+                    <label for="accountName">Account Name:</label>
+                    <input type="text" name="accountName" id="accountName">
+                </li>
+                <li>
+                    <label for="TypeOfAccount">Type Of Account:</label>
+                    <input type="text" name="TypeOfAccount" id="TypeOfAccount">
+                </li>
+                <li>
+                    <label for="officeName">Name of Account Opening Officer/Relationship Manager:</label>
+                    <input type="text" name="officeName" id="officeName">
+                </li>
+                <li>
+                    <label for="sourceOfFund">Source of fund and how has it been verified:</label>
+                    <input type="text" name="sourceOfFund" id="sourceOfFund">
+                </li>
+            </div>
+            <div>
+                <li>
+                    <label for="beneficialOwnerInfo">
+                        Information regarding Beneficial Owner of the account (In case of company, information regarding controlling shareholder(s) and
+                        the shareholder(s) holding 20% or more shares)
+                    </label>
+                    <textarea name="beneficialOwnerInfo" id="beneficialOwnerInfo" cols="120" rows="5"></textarea>
+            </li>
+                
+            <div>
+                <li>
+                    <label for="passportNo">Passport Number:</label>
+                    <input type="text" name="passportNo" id="passportNo">
+                    <label for="passportPhoto">Photo(s) of Passport:</label>
+                <input type="text" name="passportPhoto" id="passportPhoto"><!--This should be changed to photo-->
+                </li>
+                <li>
+                    <label for="voterIdCard">Voter ID Number:</label>
+                    <input type="text" name="voterIdCard" id="voterIdCard">
+                    <label for="voterIdCard">Photo(s) of Voter ID:</label>
+                    <input type="text" name="voterIdCard" id="voterIdCard"><!--This should be changed to photo-->
+                </li>
+                <li>
+                    <label for="nationalId">National ID Number:</label>
+                    <input type="text" name="nationalId" id="nationalId">
+                    <label for="nationalId">Photo(s) of National ID:</label>
+                    <input type="text" name="nationalId" id="nationalId"><!--This should be changed to photo-->
+                </li>
+                <li>
+                    <label for="TINno">T.I.N Number:</label>
+                    <input type="text" name="TINno" id="TINno">
+                    <label for="TINno">Photo(s) of T.I.N:</label>
+                    <input type="text" name="TINno" id="TINno"><!--This should be changed to photo-->
+                </li>
+                <li>
+                    <label for="varRegNum">Var Reg. Number:</label>
+                    <input type="text" name="varRegNum" id="varRegNum">
+                    <label for="varRegNum">Photo(s) of Var Reg Number:</label>
+                    <input type="text" name="varRegNum" id="varRegNum"><!--This should be changed to photo-->
+                </li>
+                <li>
+                    <label for="drivingLincenseNumber">Driving Lincense Number:</label>
+                    <input type="text" name="drivingLincenseNumber" id="drivingLincenseNumber">
+                    <label for="drivingLincenseNumber">Photo(s) of Driver's Lincense:</label>
+                    <input type="text" name="drivingLincenseNumber" id="drivingLincenseNumber"><!--This should be changed to photo-->
+                </li>
+                <li>
+                    <label for="occupationDetail">Mention the occupation in detail:</label>
+                    <textarea name="occupationDetail" id="occupationDetail" cols="120" rows="3"></textarea>
+                </li>
+            </div>
+            <div>
+                <!--Insert input elements for signatures and verification-->
+            </div>
+        </ol>
+        </div>
+    </form>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

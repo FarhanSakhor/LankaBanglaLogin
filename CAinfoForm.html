@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Customer Account Information Form</title>
+  </head>
+  <body>
+    <h1>Customer Account Info Form</h1>
+    <form id="caForm">
+        <!-- Date -->
+        <label for="date">
+            Date:
+        </label>
+        <input type="" id="date">
+        <label for="date">
+            Account type:
+        </label>
+        <label for="accountTypeCash">Cash</label>
+        <input type="radio" name="accType" id="accType" value="Cash" checked>
+        <label for="accountTypeMargin">Margin</label>
+        <input type="radio" name="accType" id="accType" value="Margin">
+        <br>
+        <label for="client-code">
+            Client Code:
+        </label>
+        <input type="text" id="client-code">
+        <div>
+            <h2>First account holder</h2>
+            <label for="name">Name of the customer:</label>
+            <input type="text" id="name">
+            <br>
+            <label for="father/husband-name">Father's/Husband's Name:</label>
+            <input type="text" id="father/husband-name">
+            <br>
+            <label for="mother's-name">Mother's Name:</label>
+            <input type="text" id="mother's-name">
+            <br>
+            <label for="dob">Date of birth:</label>
+            <input type="text" id="dob">
+            <label for="sex">Sex:</label>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="Male" value="Male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="Female" value="Female">
+            <br>
+            <label for="nationality">Nationality:</label>
+            <input type="text" id="nationality">
+            <br>
+            <label for="presentAddress">Present Address:</label>
+            <input type="text" id="presentAddress">
+            <label for="mobile">Mobile:</label>
+            <input type="text" id="mobile">
+            <label for="presentTelephone">Telephone:</label>
+            <input type="text" id="presentTelephone">
+            <br>
+            <label for="permanentAddress">Permanent Address:</label>
+            <input type="text" id="permanentAddress">
+            <label for="permanentTelephone">Tel:</label>
+            <input type="text" id="permanentTelephone">
+            <label for="email">Email:</label>
+            <input type="text" id="email">
+            <br>
+            <label for="occupation">Occupation:</label>
+            <input type="text" id="occupation">
+            <label for="eTIN">E-TIN number:</label>
+            <input type="text" id="eTIN">
+        </div>
+        <div>
+            <h2>Joint Account Holder</h2>
+            <label for="JAHname">Name of Joint Account Holder:</label>
+            <input type="text" id="JAHname">
+            <br>
+            <label for="JAHfather/husband-name">Father's/Husband's Name:</label>
+            <input type="text" id="JAHfather/husband-name">
+            <br>
+            <label for="JAHmother's-name">Mother's Name:</label>
+            <input type="text" id="JAHmother's-name">
+            <br>
+            <label for="JAHdob">Date of birth:</label>
+            <input type="text" id="JAHdob">
+            <label for="JAHsex">Sex:</label>
+            <label for="male">Male</label>
+            <input type="radio" id="Male" value="Male" name="JAHgender">
+            <label for="female">Female</label>
+            <input type="radio" id="Female" value="Female" name="JAHgender">
+            <br>
+            <label for="JAHnationality">Nationality:</label>
+            <input type="text" id="JAHnationality">
+            <br>
+            <label for="JAHpresentAddress">Present Address:</label>
+            <input type="text" id="JAHpresentAddress">
+            <label for="JAHmobile">Mobile:</label>
+            <input type="text" id="JAHmobile">
+            <label for="JAHpresentTelephone">Telephone:</label>
+            <input type="text" id="JAHpresentTelephone">
+            <br>
+            <label for="JAHpermanentAddress">Permanent Address:</label>
+            <input type="text" id="JAHpermanentAddress">
+            <br>
+            <label for="JAHpermanentTelephone">Tel:</label>
+            <input type="text" id="JAHpermanentTelephone">
+            <label for="JAHdob">Email:</label>
+            <input type="text" id="JAHemail">
+            <br>
+            <label for="JAHoccupation">Occupation:</label>
+            <input type="text" id="JAHoccupation">
+            <label for="JAHeTIN">E-TIN number:</label>
+            <input type="text" id="JAHeTIN">
+        </div>
+        <div>
+            <h2>Authorized Person Information</h2>
+            <label for="APIname">Name of the authorized personel:</label>
+            <input type="text" id="APIname">
+            <br>
+            <label for="APIfather/husband-name">Father's/Husband's Name:</label>
+            <input type="text" id="APIfather/husband-name">
+            <br>
+            <label for="APImother's-name">Mother's Name:</label>
+            <input type="text" id="APImother's-name">
+            <br>
+            <label for="APIdob">Date of birth:</label>
+            <input type="text" id="APIdob">
+            <label for="APIsex">Sex:</label>
+            <label for="APImale">Male</label>
+            <input type="radio" name="APIgender" id="APIMale" value="Male">
+            <label for="APIfemale">Female</label>
+            <input type="radio" name="APIgender" id="APIFemale" value="Female">
+            <br>
+            <label for="APInationality">Nationality:</label>
+            <input type="text" id="APInationality">
+            <br>
+            <label for="APIpresentAddress">Present Address:</label>
+            <input type="text" id="APIpresentAddress">
+            <label for="APImobile">Mobile:</label>
+            <input type="text" id="APImobile">
+            <label for="APIpresentTelephone">Telephone:</label>
+            <input type="text" id="APIpresentTelephone">
+            <br>
+            <label for="APIpermanentAddress">Permanent Address:</label>
+            <input type="text" id="APIpermanentAddress">
+            <label for="APIpermanentTelephone">Tel:</label>
+            <input type="text" id="APIpermanentTelephone">
+            <label for="APIemail">Email:</label>
+            <input type="text" id="APIemail">
+            <br>
+            <label for="APIoccupation">Occupation:</label>
+            <input type="text" id="APIoccupation">
+            <label for="APIeTIN">E-TIN number:</label>
+            <input type="text" id="APIeTIN">
+        </div>
+        <div>
+            <label for="stockExchangeComp">Officer or Director or Sponser Shareholder of any Stock Exchange Listed Company</label>
+            <input type="radio" name="stockExchangeComp" id="Yes" value="Yes">
+            <input type="radio" name="stockExchangeComp" id="No" value="No">
+            <input type="text" name="signature" id="signature"> <!--Needs to be changed to accept images-->
+            <br>
+            <label for="stockExchangeComp">If yes, Name of the Stock exchange/Listed Company:</label>
+            <input type="text" name="stockExchangeComp" id="stockExchangeComp">
+        </div>
+        <div>
+            <label for="bankName">Bank Name:</label>
+            <input type="text" name="bankName" id="bankName">
+            <br>
+            <label for="branchName">Branch Name:</label>
+            <input type="text" name="branchName" id="branchName">
+            <br>
+            <label for="accountNo">Account Number:</label>
+            <input type="text" name="accountNo" id="accountNo"> 
+            <label for="routingNo">Routing Number:</label>
+            <input type="text" name="routingNo" id="routingNo">
+            <p><strong>Declaration</strong>: It is hereby declared that all the above the information in customer account information form are true & valid</p>
+        </div>
+    </form>
+    <form id="caTnC">
+        <section>
+            <h2>Declaration/Agreement</h2>
+            <p>I/ We the undersigned whose information is given in the Brokerage Application Form hereby request to be registered as a client of
+            LankaBangla Securities Limited, to open a brokerage account in my/our/company name. I/We further agree and confirm that
+            the account hereby requested to be opened by me/us shall be held and be governed by the terms and conditions of this agreement
+            as provided hereinafter and as may be modified from time to time by LankaBangla Securities Limited and that I /we/company name
+            have/has the necessary authority and permission to enter this agreement.
+            </p>
+        </section>
+        <section>
+        <h2>Terms And Conditions</h2>
+        <p>
+            Instruction: A written instruction shall be given to LankaBangla Securities Limited from time to time to purchase and /or sell
+            investments (which shall mean and include stocks, debentures, mutual funds and private placement or any other similar financial
+            instrument as may be made available from time to time) on behalf of the account holder. On receipt of such instructions along with
+            a cash deposit or delivery of shares, LankaBangla Securities Limited shall, so far as LankaBangla Securities Limited considers it
+            reasonably practicable, purchase and/or sell investments in accordance with those instructions, provided always that (I) any such
+            dealings do not contravene any applicable laws or regulations; (II) LangkaBangla Securities Limited shall have an absolute
+            discretion to accept or reject purchase/sell instructions and (III) accounts holder's instruction shall include the following details:
+            <ul>
+                <li>The name of the investment.</li>
+                <li>Quantity</li>
+                <li>Price with notification of limit or discretion.</li>
+                <li>The duration of the order.</li>
+                <li>The nature of the lot (i.e. scrip size) for sale or the desired format for purchase order (See Note below).</li>
+                <li>The order should specify completion formats of:
+                    <ul>
+                        <li>All or partial fill with minimum trade value or number of shares.</li>
+                        <li>Mode of execution i.e. DVP (Delivery versus payment)/NON DVP (non delivery versus payment).</li>
+                    </ul>
+                </li>
+            </ul>           
+            (Note: The number of shares constituting a "market lot" may change. Sellers must include the exact format of their holding. This
+        has a direct impact on market pricing given the predominantly retail nature of the market. Trades may fail where non -agreed lot
+        sizes are delivered).
+        <br>
+        <strong>Joint Accounts:</strong> If this is a joint account, unless the account holders notify LankaBangla Securities Limited otherwise and provide
+        such documentation as LankaBangla Securities Limited may require at its sole discretion, the brokerage account(s) shall be held
+        by the account holders jointly with rights or survivorship (payable to either or the survivor). Under these terms and conditions each
+        joint account holder irrevocably appoints the other as attorney in fact to take all action on his or her behalf and to represent him or
+        her in all respects in connection with this agreement. LankaBangla Securities Limited shall be fully protected and indemnified in
+        acting but shall not be required to act upon the instruction of either of the account holder, who shall be liable, jointly or severally, for
+        any amounts due to LankaBangla Securities Limited pursuant to this agreement, whether incurred by either both of the account
+        holders.
+        <br>
+        <strong>Risk:</strong> The account holder understand(s) that the stock market is a rapidly changing market and that there is an inherent risk in
+        incurring loss in share dealings, which LankaBangla Securities Limited, is not in any way whatsoever liable and/or responsible for
+        the share dealings of the account holder.
+        <br>
+        <strong>Limit Orders:</strong> While LankaBangla Securities Limited will endeavor to purchase or sell the investment within the limits of the prices
+        that may be notified by the account holder, LankaBangla Securities Limited does not guarantee or assure that the transactions will
+        be mate realized on such notified limits, LankaBangla Securities Limited will always endeavor to obtain the best price.
+        <br>
+        <strong>Agents:</strong> LankaBangla Securities Limited is authorized to employ other brokers as agents to perform all or part of its duties under
+        these terms and conditions and to provide information regarding the account to such agents. LankaBangla Securities Limited may
+        seek and act on an opinion from any lawyer, accountant or professional adviser or other expert and shall not incur any liability by
+        acting upon such opinion.
+        <br>
+        <strong>Associate Companies:</strong> LankaBangla Securities Limited may purchase and / or sell investment on behalf of the account holder by
+        placing order with itself and other company whether acting as underwriter(s), investment manager(s), merchant or commercial
+        bank(s), registered or licensed deposit-taker(s), broker (s), dealer(s) or otherwise, or with any other broker(s) and dealer(s) as
+        LankaBangla Securities Limited in its sole discretion may decide.
+        <br>
+        <strong>Rules and Regulations of the Stock Exchange(s):</strong>  All transactions duly concluded through and recognized by the Dhaka &
+        Chittagong Stock Exchange Limited (hereafter DSE & CSE) is governed by the respective rules of DSE & CSE relating to trading
+        and settlement in particular and will be binding on both the parties concerned.
+        Payment and Disclosure: LankaBangla Securities Limited shall not be obliged to make any payment on behalf of the account
+        holders.LankaBangla Securities Limited may disclose information regarding the account holder or his/her dealings in relation to this
+        agreement to any department of the government or public, body upon request, whether or not such request is in fact legally
+        enforceable, and LankaBangla Securities Limited will not be liable in any way to account holder for doing so.
+        <br>
+        <strong>Cancellation provisions:</strong> LankaBangla Securities Limited is authorized, in its absolute discretion, should the undersigned die or
+        should LankaBangla Securities Limited for any reason whatsoever deems it necessary for its protection, without notice, or for any
+        reason to cancel any outstanding orders in order to close out the accounts of the account holder, in whole or in part, or to close out
+        any commitment made on behalf of the account holder.
+        <br>
+        <strong>Indemnity:</strong> In the event of a default, omission or act committed by LankaBangla Securities Limited as a broker/member of the
+        DSE & CSE the account holder shall be indemnified if and only as provided by the Rules and Regulation of the DSE & CSE.
+        <br>
+        <strong>Confirmation and Settlements:</strong> LankaBangla Securities Limited shall use its best endeavors to provide the account holder with
+        (a) written confirmation of each transaction it has effected on instructions and (b) contract notes (in such form as LankaBangla
+        Securities Limited shall determine) surfing forth (i) details of the trade date, value date, settlement date, quantity, price, commission
+        rate and DSE Howla' number equivalent provided also that the account holder does hereby agree and undertake to confirm in writing
+        before hand of all its/their instructions.
+        <br>
+        <strong>Fees and expenses:</strong> The account holder will pay a brokerage commission of, and any other related expenses as charged that
+        may from time to time be applicable, every transaction concluded through and recognized by the DSE is subject to transaction
+        levies or other fees imposed by the DSE. The account holder understands, acknowledges and accepts that the rate of commission
+        may be changed from time to time at the discretion of LankaBangla Securities Limited.
+        <br>
+        <strong>Set-off:</strong>LankaBangla Securities Limited shall be entitled to, in respect of all commission, costs, charged or expense, set off from
+        any monies from time to time held by LankaBangla Securities Limited for the account holder and if such monies are insufficient for
+        the purpose, to sell any investment held by LankaBangla Securities Limited or any of its agents on behalf of the account holder
+        without notification, recourse or instruction form the account holder.
+        <br>
+        <strong>Assignment:</strong> The benefits/rights and burdens/obligations of this agreemnt are capable of assignment of both the account holder
+        and LankaBangla Securities Limited without the consent of the other but the notice of assignment must be given to the other in
+        writing.
+        <br>
+        <strong>Force Majeur:</strong> LankaBangla Securities Limited shall not be liable for any loss, damages, expenses, costs or otherwise resulting
+        directly or indirectly from any Government restriction, exchange ruling, suspension of trading , war, strike/national disaster or any
+        other event or force majeure or circumstances beyond its control.
+        <br>
+        <strong>Forged Shares:</strong> LankaBangla Securities Limited shall not be liable or responsible for any shares that are found to be forged .
+        However, LankaBangla Securities Limited will make every attempt to replace the forged shares from the seller.
+        <br>
+        <strong>Law:</strong> The terms and conditions contained herein shall be governed by and be construed in accordance with the laws of
+        Bangladesh.
+        <br>
+        Notices:
+        <ol>
+        <li>All notices, instructions or other communications shall be given in English and in writing (facsimile, telex, telegram,
+            cable or letter) or orally and shall be sent to LankaBangla Securities Limited and the account Holder at the address, fax
+            and/or telex number shown herein or at such other address as may be communicated by the parties here to in writing.
+        </li> 
+        <li>Proof of delivery or dispatch shall be::
+            <ol>
+                <li>in the case of a letter : dispatch of the letter duly stamped and addressed</li>
+                <li>in the case of facsimile, telex, telegram, or cable on the day of dispatch with physical or actual confirmation.</li>
+            </ol>
+        </li> 
+        <li>All verbal notices, instructions, or, other communications should be confirmed in writing within 24 hours.</li> 
+        </ol>
+        <strong>Definitions:</strong> Words defined herein, save where a contrary meaning appears or such meaning is inconsistent with the context ,
+        shall have this same defined meaning wherever used.
+        <br>
+        <strong>Sums Due:</strong> For all purposes, including any legal proceedings, a certificate by any of LankaBangla Securities Limited officers
+        confirming the monies and /or liabilities for the time being due and / or incurred to by the account holder shall be conclusive
+        evidence thereof against him/her.
+        <br>
+        <strong>Disputes and Resolution of Dispute:</strong> In-case of any dispute arising between the LankaBangla Securities Limited and the account
+        holder in connection with the interpretation or enforcement of the terms and conditions contained herein, attempts should be made
+        to settle the matter amicably, in case of failure to settle the matter amicably, the same shall be referred to arbitration of two
+        arbitrators, each to be nominated by the parties who shall also appoint an Umpire. The decision of the arbitrators, so nominated ,
+        shall be binding on both the parties. The arbitration shall be conducted in accordance with the Arbitration Act , 2001.
+        <br>    
+    </p>
+        </section>
+        <section>
+    <p>
+        I/We have read the terms and conditions contained herein above, and having agreed with such terms and conditions I /We put
+        my/our/company seal and signature on this the day of <!--Date should be copied
+                                                            and inserted from first form-->
+        <div>
+            <label for="signatureFAaccount">Signature of First account holder:</label>
+            <input type="text" name="signatureFAaccount" id="signatureFAaccount">
+            <!-- must be edited so that the client can insert images -->
+        </div>
+        <div>
+            <label for="signatureJHAaccount">Signature of Joint Account Holder:</label>
+            <input type="text" name="signatureJHAaccount" id="signatureJHAaccount">
+            <!-- must be edited so that the client can insert images -->
+        </div>
+        <div>
+            <label for="witnessOne">Witnessed By:</label>
+            <input type="text" name="witnessOneSignature" id="witnessOneSignature">
+            <input type="text" name="witnessOneName" id="witnessOneName">
+            <input type="text" name="witnessOneAddress" id="witnessOneAddress">
+        </div>
+        <div>
+            <label for="witnessTwo">Witnessed By:</label>
+            <input type="text" name="witnessTwoSignature" id="witnessTwoSignature">
+            <input type="text" name="witnessTwoName" id="witnessTwoName">
+            <input type="text" name="witnessTwoAddress" id="witnessTwoAddress">
+        </div>
+    </p>
+        </section>
+    </form>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

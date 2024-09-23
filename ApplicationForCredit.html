@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Application For Credit Faciltiy</title>
+  </head>
+  <body>
+    <h1>Application for Credit Faciltiy</h1>
+    <form id="creditFacilityForm">
+        <label for="date">
+            Date:
+        </label>
+        <p>Cheif Executive Officer</p>
+        <p>LankaBangla Securities Ltd</p>
+        <p>9/E, Motijheel C/A, Dhaka</p>
+        <br>
+        <br>
+        <p>Dear Sir</p>
+        <br>
+        <p> I/We <!-- Name to be place here--> Client Code <!-- Client Code to be place here--> would like to avail the credit facility from your company for purchasing shares/ securities through your broker house.
+            <br>
+            I furnish herewith the necessary information/documents for your kind perusal.
+            <br>
+            <br>
+            Yours faithfully
+        </p>
+        <section>
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+            <br>
+            <label for="code">Code:</label>
+            <input type="text" id="clientCode">
+            <br>
+            <label for="BO">BO:</label>
+            <input type="text" id="boNum">
+            <br>
+        </section>
+        <section>
+            <label for="reccomendedBySignature">Reccomended By:</label>
+            <input type="text" id="reccomendedBySignature">
+            <br>
+            <label for="approvedBySignature">Approved By:</label>
+            <input type="text" id="approvedBySignature">
+        </section>
+    </form>
+    <h1>Terms and Conditions:</h1>
+    <form id="creditFacilityFormTnC">
+        <section>
+            <h2>Definations</h2>
+            <p>
+                <ul>
+                    <li>“SECURITIES ACCOUNT” Shall mean the account opened by the CLIENT with the BROKER to deposit/Sell/buy securities with the BROKER</li>
+                    <li>“APPROVED SECURITIES” Shall mean the securities purchased into the SECURITIES Account.</li>
+                    <li>“PORTFOLIO VALUE” means total market value of all the stocks in the SECURITIES Account.</li>
+                    <li>“MARGIN CALL” Shall mean request the “CLIENT “to deposit money or share to bring the Debit Balance below <!--insert percentage--> % of the
+                        portfolio Value within 24 Hours.</li>
+                    <li>“DEBIT BALANCE” Shall mean the total value of cash owned by the CLIENT together with any interest to the BROKER in the SECUR
+                        ACCOUNT for securities purchased into the account.</li>
+                </ul>
+            </p>
+        </section>
+        <h2>Terms and Conditions</h2>
+        <section>
+            <ul>
+                <li><label for="shortTermValidityDate">This will strictly be a short-term facility and valid up-to:</label>
+                    <input type="text" id="shortTermValidityDate"> </li>
+                <li>The “broker” will have absolute discretion to accept or decline any security, against which credit facility is granted and shall
+                    reserve the right to make changes to their list of “approved securities” at any given moment.</li>
+                <li>Using the credit facility the Client may purchase quoted securities through the Broker into the “ Securities Account” to a
+                    maximum value of<!--validity percentage--> % of the “Portfolio value” or Tk <!--validity amount--> whichever is lower. The Client shall at all times be
+                    responsible to maintain strictly the maximum limit of the “Debit Balance” at any given me. If Debit balance goes above............%
+                    of portfolio value due to fluctuation in the market or any other event, LBSL will issue a “Marin Call” to the client.. Margin Call could
+                    be writing or via telephone call.</li>
+                <li>In the case of “Broker” omitting a particular security/securities from the list of “approved securities” the Client shall accordingly
+                    adjust the “Portfolio value” or the “Debit balance” within two market days.</li>
+                <li>If client doesn't response to Margin Call, in that case LBSL will sell out whatever shares as the Broker see fit to regularize the
+                    “Debit balance” to% of the “portfolio value.”(+/-5% deviation is accepted in case of adjustment).</li>
+                <li>If the “Debit balance” reaches to<!--validity percentage-->% of portfolio value due to a sudden fall in the market or any other event then in such a
+                    case without any notice in that trading day or next day, LBSL will sell out shares of any company what-so-ever as it sees fit to
+                    make the Debit Balance nil. Any residual shares will remain in the account and will be available to client.</li>
+                <li>If the Client exceeds the value of the “Debit Balance” above the stipulated limit and / or violates any other terms and
+                    conditions/rules/requirements as laid down by the “Broker” or any regulatory authority from me to me, the Broker shall have
+                    absolute discretion at the “Client's risk to sell/buy any or all shares or securities of any Company whatsoever in the Client's
+                    ”Securitas Account “ without any consent of any form from the Client in order to adjust the Debit Balance of the ”Securities
+                    Account”. In the event the Portfolio value of the “Securities Account” becomes inadequate to regularize the “Debit Balance”, the
+                    Client shall be under obligation to make cash payment to settle any shortfall.</li>
+                <li>The Client shall pay brokerage commission for all transactions i.e., buy and sell, in the “Securities Account”. The Client shall also
+                    pay brokerage commission for all transactions carried out in order to regularize the “Securities Account” .Rate of brokerage will be
+                    fixed by the “Broker” and can change from time to time.</li>
+                <li>In the “Securities account” if client enjoy margin facilities, in that case, highest limit to buy a single stock is
+                    Tk <!--validity amount-->or<!--validity percentage--> of the portfolio value whichever is lower.</li>
+                <li>“Broker” shall have the authority to give notice to the client to adjust the debit balance in “Securities Account” within 20 trading
+                    days for whatever reason which “Broker” reserve the right to divulge to Client. If Client doesn't respond to such notice “Broker” shall
+                    have absolute discretion at the Client's risk to sell/buy any or all shares or Securities in any company whatsoever in the Client's
+                    “Securities Account”. Without any consent of any form from the client in order to adjust the Debit Balance of the “Securities
+                    Account”.</li>
+                <li>“Broker” will charge <input type="text" id="brokerCut">% P.A. Interest on the clients account for any debit amount, calculated on a daily basis. LBSL
+                    reserve the right to increase/decrease the interest rate by giving 7 trading days notice to Client.</li>
+                <li>The “Securities Account” will be fully operated (All Buy/Sell decisions) by the client at all times other than in the instance of
+                    “Broker” regularizing the account which has been explained in the clause 5, 6, 7 & 10.</li>
+                <li>The “Broker” shall have the right to change, rectify, include any terms and conditions in addition to the above at any time with
+                    due notice to the client.</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Nominee</h3>
+            <ul>
+                <li>In the event of the death of one of the joint account holder, the survivor: and on the death of sole account holder the nominee Or
+                    successor shall be the beneficiary of the transactions.</li>
+            </ul>
+            
+            <h3>Governing Law</h3>
+            <ul>
+                <li>All transactions shall be subject to the Rules and Regulations of the Securities and Exchange Commission of Bangladesh, Dhaka
+                    Stock Exchange Ltd. and other prevailing laws and regulations of Bangladesh and in particular the authority herein- after granted by
+                    the client to the BROKER.</li>
+            </ul>
+            <p>If Client (s) is/are an Individual/Individuals</P>
+            <label for="clientSignature1">Signature of Client 1:</label>
+            <input type="text" id="clientSignatures1">
+            <label for="clientSignature2">Signature of Client 2:</label>
+            <input type="text" id="clientSignatures2">
+            <br>
+            <label for="ifClientIsCompany">If Client is a Company :</label>
+            <label for="ifClientIsCompany">Yes</label>
+            <input type="radio" name="ifClientIsCompany" id="linkToDepositAccYes" value="No">
+            <label for="ifClientIsCompany">No</label>
+            <input type="radio" name="ifClientIsCompany" id="linkToDepositAccNo" value="Yes">
+            
+            <section>
+                <label for="sinatorySignatures">Authorized Sinatory:</label>
+                <label for="sinatorySignatures">Signature 1:</label>
+                <input type="text" id="sinatorySignatures1">
+                <label for="sinatorySignatures">Signature 2:</label>
+                <input type="text" id="sinatorySignatures2"> 
+                <div>
+                    <p>Company Seal</p><!--Image for company seal-->
+                </div>
+            </section>
+        </section>
+
+    </form>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

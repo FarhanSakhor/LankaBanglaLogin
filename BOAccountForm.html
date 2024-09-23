@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>BO Account Opening Form</title>
+  </head>
+  <body>
+    <form id="BOaccount">
+        <label for="AccountHolderAddress">Named Account Holder's correspondence address</label>
+        <input type="text" name="AccountHolderAddress" id="AccountHolderAddress">
+        <label for="date">Date:</label>
+        <input type="text" name="date" id="date">
+        <br>
+        <label for="application">Application:</label>
+        <input type="text" name="application" id="application">
+        <br>
+        <div>
+            <label for="BOCategory">BO Category:</label>
+            <label for="regular">Regular:</label>
+            <input type="radio" name="BOCategory" id="regular" value="Regular">
+            <label for="regular">Omnibus:</label>
+            <input type="radio" name="BOCategory" id="omnibus" value="Omnibus">
+            <label for="regular">Clearing:</label>
+            <input type="radio" name="BOCategory" id="clearing" value="Clearing">
+        </div>
+        <div>
+            <label for="BOCategory">BO Type:</label>
+            <label for="individual">Individual:</label>
+            <input type="radio" name="BOType" id="individual" value="Individual">
+            <label for="individual">Company:</label>
+            <input type="radio" name="BOType" id="company" value="Company">
+            <label for="individual">Joint Holder:</label>
+            <input type="radio" name="BOType" id="jointHolder" value="Joint Holder">
+        </div>
+        <div>
+            <p>Name of CDBL Participant: LankaBangla Securities Ltd.</p>
+            <label for="CDBLParticipantID">CDBL Participant ID:</label>
+            <input type="text" name="CDBLParticipantID" id="CDBLParticipantID">
+            <label for="BOid">BO ID:</label>
+            <input type="text" name="BOid" id="BOid">
+            <label for="dateOfOpening">Date:</label>
+            <input type="text" name="dateOfOpening" id="dateOfOpening">
+        </div>
+        <div>
+            <p>
+                <strong>
+                    I/WE request you to open a depository Account in my / our name as per the following details:
+                </strong>
+            </p>
+            <h3>1. First Applicant</h3>
+            <label for="NameOfAccount">Name in Full of Account:</label>
+            <input type="text" name="NameOfAccount" id="NameOfAccount">
+            <label for="title">Title (i.e Mr/Mrs/Ms)</label>
+            <input type="text" name="title" id="title">
+             <!--Insert Drop down menu for the title instead of label-->
+            <label for="companyContactName"><strong>(In case of a Company/Firm/Statutory Body)</strong> name of Contact Person:</label>
+            <input type="text" name="companyContactName" id="companyContactName">
+            <label for="individualContact">In case of Individual:</label>
+            <input type="radio" name="individualGender" id="male" value="Male">
+            <input type="radio" name="individualGender" id="female" value="Female">
+            <label for="father's/husband's-Name">Father's / Husband's Name:</label>
+            <input type="text" name="father's/husband's-name" id="father's/husband's-name">
+        </div>
+        <div>
+            <h3>2.Contact Details</h3>
+            <label for="address">Address:</label>
+            <input type="text" name="address" id="address">
+            <label for="city">City:</label>
+            <input type="text" name="city" id="city">
+            <label for="postalCode">Post Code:</label>
+            <input type="text" name="postalCode" id="postalCode">
+            <br>
+            <label for="stateORDivision">State/Division:</label>
+            <input type="text" name="stateORDivision" id="stateORDivision">
+            <label for="country">Country:</label>
+            <input type="text" name="country" id="country">
+            <label for="telephone">Telephone:</label>
+            <input type="text" name="telephone" id="telephone">
+            <br>
+            <label for="mobilePhone">Mobile:</label>
+            <input type="text" name="mobilePhone" id="mobilePhone">
+            <label for="fax">Fax:</label>
+            <input type="text" name="fax" id="fax">
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email">
+        </div>
+        <div>
+            <h3>3.Passport Details</h3>
+            <label for="passsportNo">Passport Number:</label>
+            <input type="text" name="passsportNo" id="passsportNo">
+            <label for="issuePlace">Issue place:</label>
+            <input type="text" name="issuePlace" id="issuePlace">
+            <br>
+            <label for="issueDate">Issue Date: </label>
+            <input type="text" name="issueDate" id="issueDate">
+            <label for="expiryDate">Expiry Date:</label>
+            <input type="text" name="expiryDate" id="expiryDate">
+        </div>
+        <div>
+            <h3>4.Bank Details</h3>
+            <label for="bankName">Bank Name:</label>
+            <input type="text" name="bankName" id="bankName">
+            <label for="branchName">Branch Name:</label>
+            <input type="text" name="branchName" id="branchName">
+            <label for="accountNo">Account number:</label>
+            <input type="text" name="accountNo" id="accountNo">
+            <br>
+            <label for="routingNo">Routing number:</label>
+            <input type="text" name="routingNo" id="routingNo">
+            <br>
+            <label for="dividedCredit">Electronic Dividend Credit:</label>
+            <label for="dividedCreditYes">Ye</label>
+            <input type="radio" name="dividedCredit" id="dividedCreditYes" value="Ye">
+            <label for="dividedCreditNo">No</label>
+            <input type="radio" name="dividedCredit" id="dividedCreditNo" value="No">
+            <br>
+            <label for="TaxExemption">Tax Exemption:</label>
+            <label for="TaxExemptionYes">Yes:</label>
+            <input type="radio" name="TaxExemption" id="TaxExemptionYes" value="Yes">
+            <label for="TaxExemptionYes">No:</label>
+            <input type="radio" name="TaxExemption" id="TaxExemptionNo" value="No">
+            <br>
+            <label for="TINorTAXid">TIN/TAX ID:</label>
+            <input type="text" name="TINorTAXid" id="TINorTAXid">
+        </div>
+        <div>
+            <h3>5.Others Information</h3>
+            <label for="residency">Residency:</label>
+            <label for="resident">Resident:</label>
+            <input type="radio" name="residency" id="resident" value="resident">
+            <label for="nonResident">Non-Resident:</label>
+            <input type="radio" name="residency" id="nonResident" value="nonResident">
+            <label for="nationality">Nationality</label>
+            <input type="text" name="nationality" id="nationality">
+            <label for="date">Date of Birth:</label>
+            <input type="text" name="dateOfBirth" id="dateOfBirth"> <!--Change to date input later on-->
+            <label for="statementCycleCode">Statement Cycle Code:</label>
+            <label for="daily">Daily:</label>
+            <input type="radio" name="statementCycleCode" id="daily" value="daily">
+            <label for="weekly">Weekly:</label>
+            <input type="radio" name="statementCycleCode" id="weekly" value="weekly">
+            <label for="daily">Fortnightly:</label>
+            <input type="radio" name="statementCycleCode" id="fortnightly" value="fonrnightly">
+            <label for="daily">Monthly:</label>
+            <input type="radio" name="statementCycleCode" id="monthly" value="monthly">
+            <label for="daily">Other (Please Specify):</label>
+            <input type="text" name="statementCycleCode" id="statementCycleCodeOther">
+            <br>
+            <label for="internalRefNumber">Internal Reference Number (To be filled by CDBL participant):</label>
+            <input type="text" name="internalRefNumber" id="internalRefNumber">
+            <label for="InCaseOfCompany">In case of Company:</label>
+            <input type="text" name="InCaseOfCompany" id="InCaseOfCompany">
+            <label for="companyDateReg">Date of Registration:</label>
+            <input type="text" name="companyDateReg" id="companyDateReg"> <!--Change to calender input later on-->
+            <label for="regNumber">Registration Number:</label>
+            <input type="text" name="regNumber" id="regNumber">
+        </div>
+        <div>
+            <h3>6.Joint Applicant (Second Account Holder)</h3>
+            <label for="fullName">Name in Full:</label>
+            <input type="text" name="fullName" id="fullName"> <!--Input dropdown for title like Mr/Ms/Mrs-->
+        </div>
+        <div>
+            <h3>7.Account Link Request</h3>
+            <label for="linkToDepositAcc">Would you like to create a link to your existing Depository Account</label>
+            <label for="linkToDepositAccYes">Yes</label>
+            <input type="radio" name="linkToDepositAcc" id="linkToDepositAccYes" value="Yes">
+            <label for="linkToDepositAccNo">No</label>
+            <input type="radio" name="linkToDepositAcc" id="linkToDepositAccNo" value="No">
+        </div>
+        <div>
+            <h3>8.Nominees/Heirs</h3>
+            <p>
+                If account holder(s) wish to continue nominate person(s) who will be entitled to receive securities outstanding in the account in the event
+                of the death of the sole account holder/all the joint account holders, a separate nomination Form-23 must be filled up and signed by all
+                account holders and the nominees giving names of nominees, relationship with first account holder, percentage distribution and contact
+                details, if any nominee is a minor, gurdian's name, address, relationship with nominees has also to be provided.
+            </p>
+        </div>
+        <div>
+            <h4>10. To be filled in by the Stock Broker/Stock Exchange in case the application is for opening a Cle</h4>
+            <label for="exchangeNam">DSE</label>
+            <input type="checkbox" name="exchangeNamDSE" id="exchangeNamDSE">
+            <input type="text" name="exchangeNamDSEid" id="exchangeNamDSEid">
+            <label for="exchangeNam">CSE</label>
+            <input type="checkbox" name="exchangeNamCSE" id="exchangeNamCSE">
+            <input type="text" name="exchangeNamCSEid" id="exchangeNamCSEid">
+        </div>
+        <div>
+            <h3>11. Photograph</h3>
+            <!--These should be changed to accept img files-->
+            <input type="text" name="1stApplicantSignatory" id="1stApplicantSignatory">
+            <input type="text" name="2ndApplicantSignatory" id="2ndApplicantSignatory">
+            <input type="text" name="3rdApplicantSignatory" id="3rdApplicantSignatory">
+        </div>
+        <div>
+            <h3>12.Standing Instructions</h3>
+            <p>I/We authotize you to receive facsimile (fax) transfer instruction for delivery
+            <label for="authorizeFax">Yes</label>
+            <input type="radio" name="authorizeFax" id="authorizeFaxYes" value="Yes">
+            <label for="authorizeFax">No</label>
+            <input type="radio" name="authorizeFax" id="authorizeFaxNo" value="No">
+            </p>
+        </div>
+        <div>
+            <h3>13. Declarations </h3>
+            <p>
+            The rules and regulations of the Depository and CDBL participant pertaining to an account which are in force now have been read by
+            me/us and I/we have understood the same and I/we agree to abide by and to be bound by the rules as are in force from time to time for
+            such account. I/We also declare that the particulars given by me/us are true to the best of my/our knowledge as on the date of making such
+            application. I/We further agree that any false/misleading information given by me/us or suppression of any material fact will render my/our
+            account liable for termination and further action.
+            </p>
+            <div>
+                <label for="1stApplicantSignature">First Applicant:</label>
+                <input type="text" name="1stApplicantSignature" id="1stApplicantSignature"><!--To be converted to accept image files-->
+                <br>
+                <label for="2ndApplicantSignature">Second Applicant:</label>
+                <input type="text" name="2ndApplicantSignature" id="2ndApplicantSignature"><!--To be converted to accept image files-->
+                <br>
+                <label for="3rdApplicantSignature">Third Applicant (LtdCo. Only):</label>
+                <input type="text" name="3rdApplicantSignature" id="3rdApplicantSignature"><!--To be converted to accept image files-->
+            </div>
+            <div>
+                <h3>14.Special Instructions on operation of Joint Account</h3>
+                <label for="specialInstructions">Either or Surviver</label>
+                <input type="radio" name="specialInstructions" id="eitherOrSurvivor">
+                <label for="specialInstructions">Anyone can operate</label>
+                <input type="radio" name="specialInstructions" id="anyoneCanOperate">
+                <label for="specialInstructions">Any two will operate jointly</label>
+                <input type="radio" name="specialInstructions" id="AnyTwoWillOperate">
+                <br>
+                <p>
+                <label for="declaredName">Account will be operated By:</label>
+                <input type="text" name="declaredName" id="declaredName">
+                with any one of the others.
+                </p>    
+            </div>
+            <div>
+                <h3>15.Introduction</h3>
+                <p>
+                    Introduction by an existing account holder of LankaBangla Securities Ltd. <br>
+                    I confirm the identity, occupation and address of the applicant(s).
+                    <br> 
+                    <label for="introducedName">Name of Applicant:</label>
+                    <input type="text" name="introducedName" id="introducedName">
+                    <br>
+                    <label for="introducedSignature">Signature of Applicant:</label>
+                    <input type="text" name="introducedSignature" id="introducedSignature"><!--Changed to accept image-->
+                    <label for="accountId">Account ID:</label>
+                    <input type="text" name="accountId" id="accountId">
+                </p>
+            </div>
+        </div>
+    </form>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
